@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Portfolio"/>
+    <Header msg="vicNYC"/>
+    <Container/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Container from './components/Container.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Header,
+    Container,
   }
 }
 </script>
@@ -20,6 +23,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: rgb(44, 168, 141);
 }
 </style>
