@@ -1,6 +1,14 @@
 <template>
   <div class="box">
-  
+    <div class="apps">
+     App One 
+    </div>  
+    <div class="apps">
+     App Two 
+    </div>  
+    <div class="apps">
+     App Three 
+    </div>          
   </div>
 </template>
 
@@ -12,6 +20,14 @@ export default {
 
 <style scoped>
 .box {
-  border: solid 1px purple
+  display: inline-block;
+  border-bottom: 2px solid lavender;
+  padding: 10px;
 }
+
+.apps {
+  margin: 20px 0px 20px 0px;
+
+}
+
 </style>

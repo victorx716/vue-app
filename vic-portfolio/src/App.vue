@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header msg="vicNYC"/>
+    <Header class="header" msg="vicNYC"/>
     <Container/>
   </div>
 </template>
@@ -24,5 +24,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(44, 168, 141);
+  display: inline-block;
+}
+
+.header {
+  border-bottom: solid 2px lavender;
 }
 </style>
